@@ -1,0 +1,7 @@
+.app-flex{
+  @apply flex m-2
+
+}
+.home{
+  flex: 4;
+}

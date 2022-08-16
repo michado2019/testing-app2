@@ -1,0 +1,20 @@
+.side-bar_wrapper{
+    flex: 1;
+    @apply sticky top-[50px] bg-[#fbfafa] h-[calc(100vh-50px)] text-[#555] text-[15px] pt-3
+}
+.side-bar_navbar{
+    @apply p-2 pl-5
+}
+.sideBar-navBar_titles{
+    @apply font-bold text-[11px] 
+}
+.sideBar-navBar_lists{
+    @apply flex items-center pt-1 
+}
+.sideBar-navBar_lists:hover{
+    transition: all 0.5s;
+    @apply bg-[#f5f3f3] cursor-pointer rounded-[5px]
+}
+.links{
+    @apply font-semibold pl-1 text-[14px] 
+}

@@ -1,0 +1,30 @@
+.featured-wrapper{
+    @apply rounded-[8px] flex  mx-5 
+}
+.featured-div{
+    box-shadow: -5px -2px 21px -12px rgba(135,129,129,0.73);
+-webkit-box-shadow: -5px -2px 21px -12px rgba(135,129,129,0.73);
+-moz-box-shadow: -5px -2px 21px -12px rgba(135,129,129,0.73);
+@apply w-[100%] pl-6 py-6 
+}
+.featured-titles{
+  @apply font-semibold text-gray-700
+}
+.featured-money{
+    @apply flex items-center font-bold text-gray-700
+}
+.featured-amount{
+    @apply pr-2 text-[20px]
+}
+.featured-rate,.featured-indicator{
+    @apply text-[14px]  text-gray-600
+}
+.negative-featured{
+    @apply text-red-800 h-4 !important
+}
+.positive-featured{
+    @apply text-green-800 h-4 !important
+}
+.featured-details{
+    @apply font-medium  text-gray-500
+}
