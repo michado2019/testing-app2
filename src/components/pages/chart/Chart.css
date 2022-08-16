@@ -1,9 +1,0 @@
-.chart-wrapper{
-    box-shadow: -5px -2px 21px -12px rgba(135,129,129,0.73);
-    -webkit-box-shadow: -5px -2px 21px -12px rgba(135,129,129,0.73);
-    -moz-box-shadow: -5px -2px 21px -12px rgba(135,129,129,0.73);
-    @apply rounded-[8px] m-5 
-   }
-.chart-title{
-    @apply font-semibold text-gray-600 py-4 px-5
-}

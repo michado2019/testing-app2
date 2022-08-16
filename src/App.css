@@ -1,7 +1,5 @@
-.app-flex{
-  @apply flex m-2
+.appWrapper{
+  @apply flex justify-between
 
 }
-.home{
-  flex: 4;
-}
+

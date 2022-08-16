@@ -1,20 +1,46 @@
-.side-bar_wrapper{
-    flex: 1;
-    @apply sticky top-[50px] bg-[#fbfafa] h-[calc(100vh-50px)] text-[#555] text-[15px] pt-3
+.sideBar-wrapper {
+  @apply flex-1 items-center flex flex-col bg-[#21222a] h-[100vh];
 }
-.side-bar_navbar{
-    @apply p-2 pl-5
+.sideBar-logo_div {
+  @apply flex py-7  text-[#ffc107] items-center;
 }
-.sideBar-navBar_titles{
-    @apply font-bold text-[11px] 
+.sideBar-logo{
+  @apply mr-6 
 }
-.sideBar-navBar_lists{
-    @apply flex items-center pt-1 
+.sideBar-logo_text {
+  font-family: "Permanent Marker", cursive;
+  @apply font-extrabold text-[25px] italic;
 }
-.sideBar-navBar_lists:hover{
-    transition: all 0.5s;
-    @apply bg-[#f5f3f3] cursor-pointer rounded-[5px]
+.sideBar-list {
+  @apply m-2 text-[#c6c4c4];
 }
-.links{
-    @apply font-semibold pl-1 text-[14px] 
+
+.sideBar-list_flex {
+  @apply flex py-1 items-center px-2 my-2
 }
+.sideBar-list_flex:hover {
+  transition: all 0.3s;
+  @apply bg-gray-800 border-b-2 text-[#f3f3f3] text-center border-[#ffc107];
+}
+.sideBar-list_items {
+  @apply text-[#464444] bg-[#ffc107] rounded-lg;
+}
+ .sideBar-list_icons {
+  @apply w-5 !important
+}
+.sideBar-icon_texts {
+  @apply text-[15px] font-bold pl-2
+}
+
+.logOut {
+  @apply mt-32 text-[#d7d6d6] flex px-3 
+}
+.logOut-text {
+  @apply font-bold;
+}
+
+.logOut:hover {
+    transition: all 0.3s;
+  
+    @apply text-center bg-[#cf1205] rounded-sm
+  }
