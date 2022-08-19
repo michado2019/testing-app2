@@ -1,0 +1,3 @@
+.rightBar-wrapper{
+    @apply flex-[5] bg-[#111] text-[#fff] h-[100vh]
+}

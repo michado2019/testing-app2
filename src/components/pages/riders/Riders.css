@@ -1,0 +1,3 @@
+.ridersWrapper{
+    @apply flex-[5] bg-[#111] text-[#fff]
+}

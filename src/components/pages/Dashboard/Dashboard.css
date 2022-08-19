@@ -1,3 +1,6 @@
-.dashboardWrapper{
-    @apply  bg-[#111] flex-[5]
-  }
+.dashBoard-wrapper{
+    @apply flex-[5] bg-[#111]
+}
+.dashBoard-flex{
+    @apply flex px-4
+}

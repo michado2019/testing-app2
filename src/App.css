@@ -1,5 +1,8 @@
 .appWrapper{
-  @apply flex justify-between
-
+  @apply flex-[5]
+ 
+}
+.appFlex{
+@apply flex justify-between
 }
 

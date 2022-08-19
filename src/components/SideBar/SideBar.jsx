@@ -1,30 +1,37 @@
 import React from 'react'
 import './SideBar.css'
-import {AccountBalanceOutlined, DashboardOutlined, LightbulbOutlined, LocalTaxiOutlined, LogoutOutlined, QuizOutlined, WbIridescentOutlined} from '@mui/icons-material'
+import {AccountBalanceOutlined, DashboardOutlined, LightbulbOutlined, LocalTaxiOutlined, LogoutOutlined, QuizOutlined, WbIridescentOutlined, SettingsOutlined} from '@mui/icons-material'
+import { Link } from 'react-router-dom'
 export default function SideBar() {
 
     const [currentLink, setCurrentLink] = React.useState(1)
 
   return (
     <div className='sideBar-wrapper'>
-            <div className='sideBar-logo_div'>
+      <Link to='/'>
+      <div className='sideBar-logo_div'>
             <LocalTaxiOutlined className='sideBar-logo'/>
-            <h1 className='sideBar-logo_text'>GTaxi</h1>
+            <h1 className='sideBar-logo_text'>G Taxi</h1>
             </div>
+      </Link>
       <ul className='sideBar-list'>
+        <Link to='/'>
         <li className={currentLink ===1 ? 'sideBar-list_items' : ''} onClick={()=> setCurrentLink(1)}>
         <div className='sideBar-list_flex'>
            <DashboardOutlined className='sideBar-list_icons'/>
            <h1 className='sideBar-icon_texts'>Dashboard</h1>
         </div>
         </li>
+        </Link>
 
+        <Link to='/riders'>
         <li className={currentLink ===2 ? 'sideBar-list_items' : ''} onClick={()=> setCurrentLink(2)}>
         <div className='sideBar-list_flex'>
            <WbIridescentOutlined className='sideBar-list_icons'/>
            <h1 className='sideBar-icon_texts'>Riders</h1>
         </div>
         </li>
+        </Link>
 
         <li className={currentLink ===3 ? 'sideBar-list_items' : ''} onClick={()=> setCurrentLink(3)}>
         <div className='sideBar-list_flex'>
@@ -49,8 +56,8 @@ export default function SideBar() {
 
         <li className={currentLink ===6 ? 'sideBar-list_items' : ''} onClick={()=> setCurrentLink(6)}>
         <div className='sideBar-list_flex'>
-           <DashboardOutlined className='sideBar-list_icons'/>
-           <h1 className='sideBar-icon_texts'>SettingsOutlined</h1>
+           <SettingsOutlined className='sideBar-list_icons'/>
+           <h1 className='sideBar-icon_texts'>Settings</h1>
         </div>
         </li>
 
