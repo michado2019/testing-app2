@@ -37,7 +37,7 @@
 }
 
 .logOut {
-  @apply mt-32 text-[#d7d6d6] flex px-3 top-0 left-0
+  @apply mt-20 text-[#d7d6d6] flex px-3 top-0 left-0 ml-14
 }
 .logOut-text {
   @apply font-bold; 

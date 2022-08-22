@@ -1,0 +1,6 @@
+.chartWrapper{
+    @apply m-4 rounded-xl bg-[#212121] w-[30%] p-4 
+}
+.chartTitle{
+    @apply text-[#fff]
+}

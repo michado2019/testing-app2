@@ -3,7 +3,7 @@
 }
 .ridersInfo-title{
   font-family: 'Permanent Marker', cursive;
-  @apply text-[#ffc107]
+  @apply text-[#ffc107] font-bold
 }
 .ridersInfo-div {
   @apply border-b-[1px] flex pt-4 border-zinc-600;

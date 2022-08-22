@@ -7,7 +7,7 @@ export default function TopBar() {
     <div className='topBar-wrapper'>
        <div className='topBar-top'>
           <div className='topBar-top_welcome'>
-          <h1 className='topBar-top_name'>Hi, Admin, </h1>
+          <h1 className='topBar-top_name'>Hi, Sam Afolabi, </h1>
           <p className='topBar-top_greetings'>Welcome to<span className='topBar-top_app'>MY TAXI DASHBOARD</span></p>
           </div>
           <div className='topBar-search_div'>

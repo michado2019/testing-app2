@@ -1,0 +1,33 @@
+.riderSnapShotInfoWrapper{
+    @apply text-[#fff] w-[103%] p-4 bg-[#212121] rounded-xl my-4 mx-12
+}
+
+.riderSnapShotInfo-div{
+    @apply flex flex-col items-center 
+}
+.riderSnapShotInfo-img_div{
+    @apply bg-[#111] rounded-[50%] 
+}
+.riderSnapShotInfo-img{
+    @apply   m-4 rounded-[50%] w-24 h-24 mt-[20px]
+}
+.riderSnapShotInfo-name{
+    font-family: 'Permanent Marker', cursive;
+    @apply text-[20px] font-bold text-[#ffc107] 
+}
+.riderSnapShotInfo-location{
+    @apply flex text-[#ffc107] text-[12px] font-semibold
+}
+.riderSnapShotInfo-location_icon{
+    @apply text-[15px] mr-1 !important
+}
+.riderSnapShotInfo-location_details{
+    font-family: 'Permanent Marker', cursive;
+    @apply text-[#ffc107] 
+}
+.riderSnapShotInfo-update{
+    @apply flex justify-between items-center font-semibold text-[#e1e1e1]
+}
+.riderSnapShotInfo-work_days{
+    @apply flex flex-col items-center pl-2 pt-5 text-[14px]
+}
