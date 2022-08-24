@@ -1,6 +1,6 @@
 .chartWrapper{
-    @apply m-4 rounded-xl bg-[#212121] w-[30%] p-4 
+    @apply rounded-xl bg-[#212121] m-4 px-4 pt-4 pb-16 w-[300px] h-[250px] 
 }
 .chartTitle{
-    @apply text-[#fff]
+    @apply text-[#fff] pb-8
 }

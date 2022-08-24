@@ -12,8 +12,8 @@ export default function Riders() {
     setRidersData(ridersData.filter(riderDatum => riderDatum.id !== id))
   }
   const columns = [
-    { field: 'id', headerName: 'ID', width: 70 },
-    { field: 'user', headerName: 'User name', width: 190 , renderCell: (params) => {
+    { field: 'id', headerName: 'ID', width: 50 },
+    { field: 'user', headerName: 'User name', width: 230 , renderCell: (params) => {
 
       return(
         <div className='ridersUser-div'>

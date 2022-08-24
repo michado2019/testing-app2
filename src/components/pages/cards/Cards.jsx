@@ -7,12 +7,8 @@ export default function Cards() {
   return (
     <div className='cardsWrapper'>
       <Chart />
-      <div>
       <LatestTrans />
-      </div>
-      <div>
-        <RiderSnapShotInfo />
-      </div>
+      <RiderSnapShotInfo />
     </div>
   )
 }

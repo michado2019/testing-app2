@@ -1,11 +1,11 @@
 import React from 'react'
 import DashBoard from '../dashBoard/DashBoard'
 import Riders from '../riders/Riders'
-import './RightBar.css'
+import './Main.css'
 
 export default function Main() {
   return (
-    <div className='rightBar-wrapper'>
+    <div className='mainWrapper'>
       <DashBoard />
       <Riders />
     </div>

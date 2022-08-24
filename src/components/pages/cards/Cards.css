@@ -1,3 +1,3 @@
 .cardsWrapper{
-    @apply text-[#fff] flex 
+    @apply text-[#fff] flex justify-evenly
 }

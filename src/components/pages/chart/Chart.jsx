@@ -11,7 +11,7 @@ export default function Chart() {
 
     <div className='chartWrapper'>
       <h3 className='chartTitle'>Riders Analytics</h3>
-    <ResponsiveContainer width="100%" aspect={3 / 2}>
+    <ResponsiveContainer width='100%' aspect='3/2'>
     <AreaChart data={data}>
     <XAxis dataKey="month" stroke='#ffc107'/>
     
