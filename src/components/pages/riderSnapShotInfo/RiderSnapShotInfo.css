@@ -1,5 +1,5 @@
 .riderSnapShotInfoWrapper{
-    @apply text-[#fff] max-w-[300px] h-[250px] py-4 px-12 bg-[#212121] rounded-xl m-4   
+    @apply text-[#fff] max-w-[300px] h-[250px] py-4 px-9 bg-[#212121] rounded-xl m-4   
 }
 
 .riderSnapShotInfo-div{
@@ -13,13 +13,13 @@
 }
 .riderSnapShotInfo-name{
     font-family: 'Permanent Marker', cursive;
-    @apply text-[14px] font-bold text-[#ffc107] 
+    @apply text-[12px] font-bold text-[#ffc107] 
 }
 .riderSnapShotInfo-location{
-    @apply flex text-[#ffc107] text-[12px] font-semibold
+    @apply flex text-[#ffc107] text-[10px] font-semibold
 }
 .riderSnapShotInfo-location_icon{
-    @apply text-[12px] mr-1 !important
+    @apply text-[10px] mr-1 !important
 }
 .riderSnapShotInfo-location_details{
     font-family: 'Permanent Marker', cursive;
@@ -29,5 +29,5 @@
     @apply flex justify-between items-center font-semibold text-[#e1e1e1]
 }
 .riderSnapShotInfo-work_days{
-    @apply flex flex-col items-center pl-2 pt-5 text-[12px] 
+    @apply flex flex-col items-center pl-2 pt-3 text-[9px] 
 }

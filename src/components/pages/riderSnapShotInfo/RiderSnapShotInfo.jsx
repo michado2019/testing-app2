@@ -16,7 +16,7 @@ export default function RiderSnapShotInfo() {
         </div>
         <div className='riderSnapShotInfo-update'>
             <div className='riderSnapShotInfo-work_days'>
-               <span>Days at work</span>
+               <span>Days</span>
                <span>28</span>
             </div>
             <div className='riderSnapShotInfo-work_days'>

@@ -3,7 +3,7 @@
 }
 .latestTrans-title{
   font-family: 'Permanent Marker', cursive;
-    @apply text-[#ffc107] text-[14px] font-bold pb-6
+    @apply text-[#ffc107] text-[12px] font-bold pb-1
 }
 .latestTrans-flex{
     @apply flex items-center pt-4
@@ -15,20 +15,20 @@
     @apply mr-2
 }
 .latestTrans-name{
-    @apply font-semibold text-[#d7d7d7] text-[14px]
+    @apply font-semibold text-[#d7d7d7] text-[11px]
 }
 .latestTrans-time{
-    @apply font-medium text-[12px]
+    @apply font-medium text-[9px]
 }
 .latestTrans-price{
-    @apply font-medium text-[#ffc107] bg-[#555] px-1 rounded-[40%] text-[8px]
+    @apply font-medium text-[#ffc107] bg-[#555] px-1 rounded-[40%] text-[9px]
 }
 .latestTrans-all_flex{
   @apply flex text-[#ffc107] cursor-pointer items-center float-right pt-5
 }
 .latestTrans-all{
-    @apply text-[14px] 
+    @apply text-[10px] 
 }
 .latestTrans-arrow{
-    @apply text-[14px] pl-1 !important
+    @apply text-[10px] pl-1 !important
 }
