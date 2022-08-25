@@ -58,7 +58,7 @@ export const riderRows = [
   { id: 2, avatar:'./images/my--profile_pix (2).jpg', userName: 'Lannister Cersei', age: 42, email:'info@gmail.com', status: 'active', transactions: '$1000' },
   { id: 3, avatar:'./images/my--profile_pix (2).jpg', userName: 'Lannister Jaime', age: 45, email:'info@gmail.com', status: 'active', transactions: '$1000' },
   { id: 4, avatar:'./images/my--profile_pix (2).jpg', userName: 'Stark Arya', age: 16, email:'info@gmail.com', status: 'active', transactions: '$1000' },
-  { id: 5, avatar:'./images/my--profile_pix (2).jpg', userName: 'Targaryen Daenerys', age: null, email:'info@gmail.com', status: 'active', transactions: '$1000' },
+  { id: 5, avatar:'./images/my--profile_pix (2).jpg', userName: 'Sam Afolabi', age: null, email:'info@gmail.com', status: 'active', transactions: '$1000' },
   { id: 6, avatar:'./images/my--profile_pix (2).jpg', userName: 'Melisandre Emma', age: 150, email:'info@gmail.com', status: 'active', transactions: '$1000' },
   { id: 7, avatar:'./images/my--profile_pix (2).jpg', userName: 'Clifford Ferrara', age: 44, email:'info@gmail.com', status: 'active', transactions: '$1000' },
   { id: 8, avatar:'./images/my--profile_pix (2).jpg', userName: 'Frances Rossini', age: 36, email:'info@gmail.com', status: 'active', transactions: '$1000' },

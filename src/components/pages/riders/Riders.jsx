@@ -12,8 +12,8 @@ export default function Riders() {
     setRidersData(ridersData.filter(riderDatum => riderDatum.id !== id))
   }
   const columns = [
-    { field: 'id', headerName: 'ID', width: 50 },
-    { field: 'user', headerName: 'User name', width: 230 , renderCell: (params) => {
+    { field: 'id', headerName: 'ID', width: 5 },
+    { field: 'user', headerName: 'User name', width: 190 , renderCell: (params) => {
 
       return(
         <div className='ridersUser-div'>
@@ -22,16 +22,11 @@ export default function Riders() {
         </div>
       )
     } },
-    {
-      field: 'age',
-      headerName: 'Age',
-      width: 100,
-    },
-    { field: 'email', headerName: 'Email', width: 190 },
-    { field: 'status', headerName: 'Status', width: 80 },
-    { field: 'transactions', headerName: 'Transactions', width: 130 },
+    { field: 'email', headerName: 'Email', width: 130 },
+    { field: 'status', headerName: 'Status', width: 60 },
+    { field: 'transactions', headerName: 'Transactions', width: 100 },
     
-    { field: 'actions', headerName: 'Actions', width: 130, renderCell: (params) => {
+    { field: 'actions', headerName: 'Actions', width: 90, renderCell: (params) => {
 
       return(
         <div className='ridersEdit-div'>
@@ -46,7 +41,7 @@ export default function Riders() {
 
   return (
     <div className='ridersWrapper'>
-        <div style={{ height: 600, width: '100%' }}>
+        <div style={{ height: 600, width: '71%', textAlign: 'center' }}>
       <DataGrid
         rows={ridersData}
         columns={columns}

@@ -1,5 +1,5 @@
 .ridersWrapper{
-    @apply flex-[5] text-[#ffffff] h-[100%]
+    @apply flex-[5] text-[#ffffff] h-[100%] 
 }
 .ridersUser-div{
     @apply flex items-center

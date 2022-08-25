@@ -5,6 +5,7 @@ import DashBoard from "./components/pages/dashBoard/DashBoard"
 import {BrowserRouter,Route, Routes} from 'react-router-dom'
 import Riders from "./components/pages/riders/Riders";
 import Rider from './components/pages/rider/Rider'
+import NewRider from "./components/pages/newRider/NewRider";
 
 function App() {
 
@@ -22,8 +23,10 @@ function App() {
         <Routes>
           <Route path='/rider/:riderId' element={<Rider />} />
         </Routes>
+        <Routes>
+          <Route path='/newRider' element={<NewRider />} />
+        </Routes>
         </div>
-        
     </div>
     </BrowserRouter>
   );
