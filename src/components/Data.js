@@ -64,3 +64,16 @@ export const riderRows = [
   { id: 8, avatar:'./images/my--profile_pix (2).jpg', userName: 'Frances Rossini', age: 36, email:'info@gmail.com', status: 'active', transactions: '$1000' },
   { id: 9, avatar:'./images/my--profile_pix (2).jpg', userName: 'Roxie Harvey', age: 65, email:'info@gmail.com', status: 'active', transactions: '$1000' },
 ];
+
+// Payment Data
+export const paymentRows = [
+  { id: 11, img:'./images/my--profile_pix (2).jpg', userName: 'Snow Jon', email:'info@gmail.com', status: 'Approved', transactions: '$1000', date: '29-08-2022' },
+  { id: 22, img:'./images/my--profile_pix (2).jpg', userName: 'Lannister Cersei', email:'info@gmail.com', status: 'Approved', transactions: '$1000', date: '29-08-2022' },
+  { id: 33, img:'./images/my--profile_pix (2).jpg', userName: 'Lannister Jaime', email:'info@gmail.com', status: 'Declined', transactions: '$1000', date: '29-08-2022' },
+  { id: 44, img:'./images/my--profile_pix (2).jpg', userName: 'Stark Arya', email:'info@gmail.com', status: 'Declined', transactions: '$1000', date: '29-08-2022' },
+  { id: 55, img:'./images/my--profile_pix (2).jpg', userName: 'Sam Afolabi', email:'info@gmail.com', status: 'Pending', transactions: '$1000', date: '29-08-2022' },
+  { id: 66, img:'./images/my--profile_pix (2).jpg', userName: 'Melisandre Emma', email:'info@gmail.com', status: 'Approved', transactions: '$1000', date: '29-08-2022' },
+  { id: 77, img:'./images/my--profile_pix (2).jpg', userName: 'Clifford Ferrara', email:'info@gmail.com', status: 'Pending', transactions: '$1000', date: '29-08-2022' },
+  { id: 88, img:'./images/my--profile_pix (2).jpg', userName: 'Frances Rossini', email:'info@gmail.com', status: 'Approved', transactions: '$1000', date: '29-08-2022' },
+  { id: 99, img:'./images/my--profile_pix (2).jpg', userName: 'Roxie Harvey', email:'info@gmail.com', status: 'Pending', transactions: '$1000', date: '29-08-2022' },
+];

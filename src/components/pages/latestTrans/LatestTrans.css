@@ -32,3 +32,22 @@
 .latestTrans-arrow{
     @apply text-[10px] pl-1 !important
 }
+
+@media (max-width: 790px) {
+    .latestTrans-wrapper{
+     @apply max-w-[100%] h-[200px] mx-3
+        
+    }
+    .latestTrans-title{
+          @apply text-[14px] 
+      }
+      .latestTrans-name{
+        @apply text-[13px]
+    }
+    
+}
+@media (max-width: 300px) {
+    .latestTrans-name{
+        @apply text-[10px]
+    }
+}

@@ -25,3 +25,22 @@
 .analyticsSpent-icons{
     @apply   m-4 
 }
+@media (max-width: 400px) {
+    .analyticsWrapper{
+        @apply grid-cols-1
+    }
+}
+@media (max-width: 690px) {
+    .analyticsWrapper{
+        @apply w-[94%] my-4
+    }
+}
+@media (max-width: 790px) {
+    .analyticsWrapper{
+        @apply h-[100px]
+    }
+    .analyticsSpent{
+        @apply h-[100px]
+
+    }
+}

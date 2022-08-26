@@ -1,5 +1,5 @@
 .riderSnapShotInfoWrapper{
-    @apply text-[#fff] max-w-[300px] h-[250px] py-4 px-9 bg-[#212121] rounded-xl m-4   
+    @apply text-[#fff] max-w-[300px] h-[250px] py-4 px-12 bg-[#212121] rounded-xl m-4   
 }
 
 .riderSnapShotInfo-div{
@@ -30,4 +30,20 @@
 }
 .riderSnapShotInfo-work_days{
     @apply flex flex-col items-center pl-2 pt-3 text-[9px] 
+}
+
+@media (max-width: 790px) {
+    .riderSnapShotInfoWrapper{
+        @apply min-w-[150%] h-[220px] py-6 px-0 ml-[25%] mt-0  
+    }
+}
+@media (max-width: 560px) {
+    .riderSnapShotInfoWrapper{
+        @apply min-w-[93%] ml-4
+    }
+}
+@media (max-width: 400px) {
+    .riderSnapShotInfoWrapper{
+        @apply ml-2
+    }
 }

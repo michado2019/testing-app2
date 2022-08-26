@@ -7,8 +7,9 @@ import Cards from '../cards/Cards'
 
 export default function DashBoard() {
 
+  
   return (
-    <div className='dashBoard-wrapper'>
+    <div className='dashBoard-wrapper' >
        <TopBar />
        <div className='dashBoard-flex'>
       <Analytics />

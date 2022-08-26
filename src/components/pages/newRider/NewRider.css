@@ -37,3 +37,11 @@
 .newRider-btn{
     @apply bg-[#ffc107] w-32 rounded-[5px] text-white mt-10
 }
+@media (max-width: 800px) {
+    .newRider-form_group{
+        @apply w-[200px] 
+    } 
+    .newRider-select{
+        @apply w-[200px] 
+    }
+}

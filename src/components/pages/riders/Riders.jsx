@@ -23,8 +23,8 @@ export default function Riders() {
       )
     } },
     { field: 'email', headerName: 'Email', width: 130 },
-    { field: 'status', headerName: 'Status', width: 60 },
-    { field: 'transactions', headerName: 'Transactions', width: 100 },
+    { field: 'status', headerName: 'Status', width: 90 },
+    { field: 'transactions', headerName: 'Transactions', width: 120 },
     
     { field: 'actions', headerName: 'Actions', width: 90, renderCell: (params) => {
 
@@ -41,11 +41,11 @@ export default function Riders() {
 
   return (
     <div className='ridersWrapper'>
-        <div style={{ height: 600, width: '71%', textAlign: 'center' }}>
+        <div style={{ height: 600, width: '100%'}}>
       <DataGrid
         rows={ridersData}
         columns={columns}
-        pageSize={9}
+        pageSize={6}
         rowsPerPageOptions={[5]}
         checkboxSelection
         disableSelectionOnClick

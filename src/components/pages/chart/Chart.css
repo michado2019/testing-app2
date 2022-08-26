@@ -4,3 +4,18 @@
 .chartTitle{
     @apply text-[#fff] pb-8
 }
+@media (max-width: 400px) {
+    .chartWrapper{
+        @apply ml-2 
+    }
+}
+@media (max-width: 560px) {
+    .chartWrapper{
+        @apply w-[94%]
+    }
+}
+@media (max-width: 790px) {
+   .chartWrapper{
+     @apply max-w-[100%] h-[200px]   
+}
+}

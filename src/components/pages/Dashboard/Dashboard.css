@@ -4,4 +4,9 @@
 .dashBoard-flex{
     @apply flex text-[#fff] 
 }
+@media (max-width: 690px) {
+    .dashBoard-flex{
+        @apply flex-col items-center 
+    }
+}
 

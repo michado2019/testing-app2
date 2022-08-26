@@ -2,7 +2,7 @@
     @apply text-[#fff] flex-[5] bg-[#111] p-5 
 }
 .riderTop-bar{
-    @apply flex items-center justify-between 
+    @apply flex items-center justify-between px-8
 }
 .riderTitle{
     @apply font-bold
@@ -71,3 +71,33 @@
 .riderEditSection-two_btn{
     @apply bg-[#a88417] rounded-sm px-4 py-1 font-semibold text-[12px]
 }
+
+@media (max-width: 280px) {
+    .riderWrapper{
+        @apply w-[250px] px-0
+    }
+    .riderDetails-div{
+        @apply w-[250px] px-0
+    }
+} 
+@media (max-width: 340px) {
+    .riderWrapper{
+        @apply px-0 rounded-none
+    }
+    .riderTop-bar{
+        @apply px-5
+    }
+    .riderEdit-div{
+        @apply rounded-none w-[100%] px-2 mx-2 
+    }
+} 
+
+@media (max-width: 630px) {
+    .riderFlex{
+        @apply flex-col items-center justify-between 
+    }
+    .riderDetails-div{
+        @apply bg-[#212121] p-5 rounded-none w-[100%] mt-4 h-[50%]
+    }
+}
+

@@ -6,6 +6,7 @@ import {BrowserRouter,Route, Routes} from 'react-router-dom'
 import Riders from "./components/pages/riders/Riders";
 import Rider from './components/pages/rider/Rider'
 import NewRider from "./components/pages/newRider/NewRider";
+import Payment from "./components/pages/payment/Payment";
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/newRider' element={<NewRider />} />
+        </Routes>
+        <Routes>
+          <Route path='/payment' element={<Payment />} />
         </Routes>
         </div>
     </div>
