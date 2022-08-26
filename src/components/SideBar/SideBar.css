@@ -63,7 +63,7 @@
       @apply ml-3
     }
     .sideBar-logo_div {
-      @apply flex py-0 items-center pl-0
+      @apply flex pt-0 pb-1 items-center pl-0
     }
     .sideBar-logo{
       @apply mr-2
