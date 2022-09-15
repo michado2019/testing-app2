@@ -1,12 +1,13 @@
 import React from 'react'
 import './App.css'
-import Home from './Home';
-function App(){
-  //set state
+import { HomePage } from './pages';
 
+function App(){
+
+  //set state
   return(
     <div>
-       <Home />
+      <HomePage />
     </div>
   )
 }
