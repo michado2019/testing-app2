@@ -1,10 +1,13 @@
-import React from 'react'
-import './Home.css'
-import Avartar from '../Avartar'
+import * as React from "react";
+import "./Home.css";
+import {H1} from './customHooks'
+
 export default function Home() {
+
   return (
-    <div>
-        <Avartar />
+    <div className='homeWrapper'>
+      <H1>Home</H1>
+      <p>Welcome, Adeshina! </p>
     </div>
-  )
+  );
 }
