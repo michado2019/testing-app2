@@ -20,6 +20,10 @@
     flex-direction: column;
     text-align: center;
 }
+.mike{
+    display: none;
+    transition: all 5s;
+}
 
 .fruitTo-delete, .fruitTo-add{
     margin-left: 35%;
