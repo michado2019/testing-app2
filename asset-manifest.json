@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/G-taxi-app/static/css/main.4394aa8e.css",
+    "main.js": "/G-taxi-app/static/js/main.59c47e25.js",
+    "index.html": "/G-taxi-app/index.html",
+    "main.4394aa8e.css.map": "/G-taxi-app/static/css/main.4394aa8e.css.map",
+    "main.59c47e25.js.map": "/G-taxi-app/static/js/main.59c47e25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4394aa8e.css",
+    "static/js/main.59c47e25.js"
+  ]
+}
