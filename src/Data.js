@@ -30,3 +30,32 @@ export const tree = [{
   model: 'mahogany',
   img: 'menu-icon.png'
 }]
+
+
+export const items = [
+  {
+    id: 1,
+    item: 'car',
+    img: './images/favicon.ico'
+  },
+  {
+    id: 2,
+    item: 'cake',
+    img: 'logo512.png'
+  },
+  {
+    id: 3,
+    item: 'eraser',
+    img: 'logo512.png'
+  },
+  {
+    id: 4,
+    item: 'yam',
+    img: 'logo512.png'
+  },
+  {
+    id: 5,
+    item: 'table',
+    img: 'logo512.png'
+  }
+]
